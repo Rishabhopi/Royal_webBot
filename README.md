@@ -53,7 +53,7 @@ And many more features to explore!
 
 ### Bot Features Preview
 
->([click here to see](https://telegra.ph/Screenshot-of-Bot-Features-07-24))
+>[click here to see](https://telegra.ph/Screenshot-of-Bot-Features-07-24)
 
 
 
