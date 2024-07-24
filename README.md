@@ -1,4 +1,4 @@
-# Royal_Ashlynn_Bot ⚡️ 
+# All In One Bot ⚡️ 
 
 ### About Our Bot Web Page
 > Welcome to our comprehensive Bot Web Page, your one-stop destination for an array of innovative and entertaining features designed to enhance your online experience! Our bot integrates cutting-edge technologies and tools, making it easier and more enjoyable to interact with the digital world. Here’s what you can expect:
