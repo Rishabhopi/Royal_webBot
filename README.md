@@ -5,9 +5,9 @@
 
 #### Key Features 📋
 
-1. ChatGPT: Engage in intelligent conversations with our powerful AI chatbot, capable of understanding and responding to a wide range of queries.
+1. ChatGPT: Engage in intelligent conversations with our powerful AI chatbot, capable of understanding and responding to a wide range of queries.(might not we work sometime due to using public api)
 
-2. Gemini AI: Experience advanced AI capabilities for personalized interactions and enhanced user experience.
+2. Gemini AI: Experience advanced AI capabilities for personalized interactions and enhanced user experience.(this feature continously changing like Gemini to MK AI or wormGPT Etc..)
 
 3. Open in WhatsApp: Seamlessly connect and chat with our bot on WhatsApp for a more convenient messaging experience.
 
