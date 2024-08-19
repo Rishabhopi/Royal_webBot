@@ -5,24 +5,34 @@ body {
   font-family: 'Raleway';
   font-size: 16px;
   line-height: 1.8em;
+  color: #ffffff;
+  background: #000000;
+  background-image: radial-gradient(circle at center, #121212, #000000), url('https://i.ibb.co/WcfS0zX/electric-bg.gif');
+  background-size: cover;
+  background-blend-mode: overlay;
 }
 
 a {
-  color: #1C9C94;
+  color: #00ccff;
   text-decoration: none;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 a:hover {
-  opacity: 0.5;
+  opacity: 0.7;
+  transform: scale(1.1);
 }
 
 article {
-  padding:0 1em;
+  padding: 0 1em;
 }
 
-section{
+section {
   margin: 1em;
   padding: 1em;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ff0066, 0 0 20px #ff0066;
 }
 
 header, main, footer {
@@ -34,31 +44,48 @@ header {
   text-align: center;
   background-image: url('./Assets/bg3.jpg');
   background-size: cover;
-  background-position: fixed;
-  color: rgb(255, 255, 255);
+  background-position: center;
+  color: #ffffff;
+  box-shadow: 0 0 10px #ff0066, 0 0 20px #ff0066;
 }
 
 header section {
   margin: 0 auto;
   max-width: 640px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px #ff0066, 0 0 20px #ff0066;
 }
 
 header img {
   border-radius: 50%;
   max-width: 150px;
+  border: 3px solid #ff0066;
+  box-shadow: 0 0 10px #ff0066, 0 0 20px #ff0066;
 }
 
 h1 {
   text-transform: uppercase;
   margin: 1em 0;
+  color: #ff0066;
+  font-size: 3rem;
+  text-shadow: 0 0 10px #ff0066, 0 0 20px #ff0066;
 }
 
 h3 {
   text-transform: uppercase;
+  color: #ffcc00;
+  text-shadow: 0 0 10px #ffcc00;
 }
 
 h3, h4 {
   font-weight: bold;
+}
+
+h4 {
+  color: #00ccff;
+  text-shadow: 0 0 10px #00ccff;
 }
 
 main {
@@ -66,11 +93,11 @@ main {
 }
 
 main section:not(:last-child) {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ff0066;
 }
 
 .fab {
-  border: 1px solid white;
+  border: 1px solid #ff0066;
   border-radius: 50%;
   font-size: 1.5em;
   width: 1.5em;
@@ -78,28 +105,28 @@ main section:not(:last-child) {
   line-height: 1.5em;
   margin: 5px;
   text-align: center;
+  color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-a .fab {
-  color: white;
+a .fab:hover {
+  color: #ff0066;
+  transform: scale(1.2);
+  box-shadow: 0 0 10px #ff0066, 0 0 20px #ff0066;
 }
 
 .course, .skills {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .course .title {
-  color: #509e98;
-  -ms-flex: 0 0 33.3%;
+  color: #ffcc00;
   flex: 0 0 33.3%;
   max-width: 33%;
 }
 
 .course .descrition {
-  -ms-flex: 0 0 66.6%;
   flex: 0 0 66.6%;
   max-width: 66.6%;
 }
@@ -109,7 +136,6 @@ a .fab {
 }
 
 .skills .column {
-  -ms-flex: 0 0 50%%;
   flex: 0 0 50%;
   max-width: 50%;
 }
@@ -121,7 +147,7 @@ a .fab {
 .skills .column ul > li:before {
   content: "►";
   padding-right: 0.5em;
-  color: #509e98;
+  color: #ffcc00;
 }
 
 .school, .job-title {
@@ -129,21 +155,32 @@ a .fab {
 }
 
 .school span, .job-title span {
-  color: #889499;
+  color: #ff0066;
   text-decoration: underline;
 }
 
 ul.job-description li:before{
   content: "✔";
   padding-right: 0.5em;
-  color: #509e98;
+  color: #ffcc00;
 }
 
 footer {
- padding: 1em 1.5em;
- background: #A7B8BF;
- color: white;
- text-align: right;
+  padding: 1em 1.5em;
+  background: #121212;
+  color: #ffffff;
+  text-align: right;
+  box-shadow: 0 0 10px #ff0066, 0 0 20px #ff0066;
+}
+
+footer p a {
+  color: #00ccff;
+  text-decoration: none;
+  transition: text-shadow 0.3s ease;
+}
+
+footer p a:hover {
+  text-shadow: 0 0 10px #00ccff, 0 0 20px #00ccff;
 }
 
 @media only screen and (max-width: 768px) {
